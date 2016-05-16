@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.策略模式（Strategy 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构型模式", "{D5660442-9BE0-41B3-A785-0B392FB9DF20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.装饰模式（Decorator Pattern）", "9.装饰模式（Decorator Pattern）\9.装饰模式（Decorator Pattern）.csproj", "{124B2F12-5416-48AB-8D27-AA23CEAEC1EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.装饰模式（Decorator Pattern）", "9.装饰模式（Decorator Pattern）\09.装饰模式（Decorator Pattern）.csproj", "{124B2F12-5416-48AB-8D27-AA23CEAEC1EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.代理模式（Proxy Pattern）", "13.代理模式（Proxy Pattern）\13.代理模式（Proxy Pattern）.csproj", "{B7478CDB-2EFF-4077-904F-D8417E601BEF}"
 EndProject
