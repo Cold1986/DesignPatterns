@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.外观模式（Façade P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.建造者模式（Builder Pattern）", "3.建造者模式（Builder Pattern）\3.建造者模式（Builder Pattern）.csproj", "{0064317F-C31D-45D4-93A3-8F044DD9190C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.观察者模式(Observer Pattern)", "18.观察者模式(Observer Pattern)\18.观察者模式(Observer Pattern).csproj", "{F5722807-38B0-45BF-84DB-23513353F283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{0064317F-C31D-45D4-93A3-8F044DD9190C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0064317F-C31D-45D4-93A3-8F044DD9190C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0064317F-C31D-45D4-93A3-8F044DD9190C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5722807-38B0-45BF-84DB-23513353F283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5722807-38B0-45BF-84DB-23513353F283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5722807-38B0-45BF-84DB-23513353F283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5722807-38B0-45BF-84DB-23513353F283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{124B2F12-5416-48AB-8D27-AA23CEAEC1EF} = {D5660442-9BE0-41B3-A785-0B392FB9DF20}
 		{B7478CDB-2EFF-4077-904F-D8417E601BEF} = {D5660442-9BE0-41B3-A785-0B392FB9DF20}
 		{B6BAE6AE-4DB5-41C0-BDBD-1104ADE8835E} = {D5660442-9BE0-41B3-A785-0B392FB9DF20}
+		{F5722807-38B0-45BF-84DB-23513353F283} = {D5660442-9BE0-41B3-A785-0B392FB9DF20}
 	EndGlobalSection
 EndGlobal
