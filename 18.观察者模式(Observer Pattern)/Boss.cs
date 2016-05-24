@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace 观察者模式
 {
+    public delegate void EventHandler();
+
     public class Boss : ISubject
     {
         public event EventHandler Update;
@@ -14,6 +16,7 @@ namespace 观察者模式
         public void Notify()
         {
             Update();
+        }
         
 
         public string SubjectState
@@ -28,4 +31,23 @@ namespace 观察者模式
             }
         }
     }
+
+    public class Secretary : ISubject
+    {
+        //声明一事件Update，类型为委托EventHandler  
+        public event EventHandler Update;
+
+        private string action;
+
+        public void Notify()
+        {
+            Update();
+        }
+        public string SubjectState
+        {
+            get { return action; }
+            set { action = value; }
+        }  
+    }
+
 }
